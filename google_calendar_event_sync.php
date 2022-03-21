@@ -9,9 +9,9 @@ require_once 'vendor/autoload.php';
 /*
  * Configuration and setup Google API
  */
-$clientId = '677113828792-taljkutnpla5mfdd64cg8vt1uhktmb2c.apps.googleusercontent.com';
-$clientSecret = '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';
-$redirectURL = 'http://localhost/calendar/google_calendar_event_sync.php';
+$clientId = '';
+$clientSecret = '';
+$redirectURL = '';
 
 //Call Google API
 $client = new Google_Client();
